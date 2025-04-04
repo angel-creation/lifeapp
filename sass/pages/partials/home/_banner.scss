@@ -1,0 +1,8 @@
+.#{$prefix}banner {
+	position: relative;
+	.#{$prefix}center-img {
+		position: absolute !important;
+		top: rem(117);
+		left: rem(377);
+	}
+}

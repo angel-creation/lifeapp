@@ -1,0 +1,22 @@
+.#{$prefix}services {
+	position: relative;
+	background: url(../../../../assets/media/services-banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 999;
+
+	.#{$prefix}services-image-wrap {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: -9999;
+	}
+	.#{$prefix}background-heading {
+		color: rgba($color: #000000, $alpha: 0.03);
+		position: absolute;
+		top: rem(20);
+		left: rem(100);
+	}
+}

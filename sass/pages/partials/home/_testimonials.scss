@@ -1,0 +1,16 @@
+.#{$prefix}testiminials-wrapper {
+	position: relative;
+	background-color: #f6fffe;
+	.owl-carousel {
+		.owl-carousel .owl-item img {
+			width: auto;
+		}
+	}
+
+	.#{$prefix}background-heading {
+		color: rgba($color: #000000, $alpha: 0.03);
+		position: absolute;
+		top: rem(20);
+		left: rem(150);
+	}
+}

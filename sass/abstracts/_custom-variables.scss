@@ -1,0 +1,474 @@
+$font-size-base: 1rem !default;
+// scss-docs-start font-variables
+
+$font-family-sans-serif:
+	"Inter",
+	sans-serif,
+	system-ui,
+	-apple-system,
+	"Segoe UI",
+	Inter,
+	"Helvetica Neue",
+	"Noto Sans",
+	"Liberation Sans",
+	Arial,
+	sans-serif,
+	"Apple Color Emoji",
+	"Segoe UI Emoji",
+	"Segoe UI Symbol",
+	"Noto Color Emoji" !default;
+$font-family-monospace: "Montserrat", sans-serif, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+	"Courier New", monospace !default;
+
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+$line-height-custom: 0.6;
+
+$lead: $font-size-base;
+$lead-18: $font-size-base * 1.125;
+$lead-20: $font-size-base * 1.25;
+$lead-22: $font-size-base * 1.375;
+$lead-24: $font-size-base * 1.5;
+$lead-30: $font-size-base * 1.875;
+$lead-32: $font-size-base * 2;
+$lead-150: $font-size-base * 9.375;
+
+$font-sizes: (
+	16: $font-size-base,
+	18: $lead-18,
+	20: $lead-20,
+	22: $lead-22,
+	24: $lead-24,
+	30: $lead-30,
+	32: $lead-32,
+	150: $lead-150
+);
+$h1-font-size: $font-size-base * 3.75;
+$h2-font-size: $font-size-base * 3;
+$h3-font-size: $font-size-base * 2;
+$h4-font-size: $font-size-base * 2.1875;
+$h5-font-size: $font-size-base * 1.5;
+$h6-font-size: $font-size-base;
+
+$font-sizes: (
+	1: $h1-font-size,
+	2: $h2-font-size,
+	3: $h3-font-size,
+	4: $h4-font-size,
+	5: $h5-font-size,
+	6: $h6-font-size
+) !default;
+// scss-docs-end font-sizes
+
+// // scss-docs-start font-sizes
+// $font-sizes: (
+//   1: $h1-font-size,
+//   2: $h2-font-size,
+//   3: $h3-font-size,
+//   4: $h4-font-size,
+//   5: $h5-font-size,
+//   6: $h6-font-size,
+// ) !default;
+// // scss-docs-end font-sizes
+
+//colors
+
+$primary: #37d6c9;
+$secondary: #3548a4;
+$heading: #eff7f6;
+$text: #343434;
+$white: #fefefe;
+$white-light: #ffffff;
+$dark-white: #f8f7f5;
+$dark-black: #1c1c1c;
+$black: #000000;
+$light-blue: #f6fffe;
+
+//bootstrap colors
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+$primary: #37d6c9;
+$secondary: #3548a4;
+$tertiary: #fca311;
+$heading: #eff7f6;
+$text: #343434;
+$white: #fefefe;
+$white-light: #ffffff;
+$dark-white: #f8f7f5;
+$dark-black: #1c1c1c;
+$black: #000000;
+$light-blue: #f6fffe;
+
+//gray
+$gray-100: #f8f9fa;
+$gray-150: #f0f3f5;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$gray-100-dark: #1b1b29;
+$gray-200-dark: #2b2b40;
+$gray-300-dark: #323248;
+$gray-400-dark: #474761;
+$gray-500-dark: #565674;
+$gray-600-dark: #6d6d80;
+$gray-700-dark: #92929f;
+$gray-800-dark: #cdcdde;
+$gray-900-dark: #ffffff;
+
+$text: $text;
+$success: $green;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+$primary: $primary;
+$light-blue: $light-blue;
+
+// scss-docs-start container-max-widths
+
+$container-max-widths: (
+	sm: 100%,
+	md: 100%,
+	lg: 100%,
+	xl: 1400px,
+	xxl: 1620px
+);
+
+// scss-docs-start theme-colors-map
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"success": $success,
+	"info": $info,
+	"warning": $warning,
+	"danger": $danger,
+	"light": $light,
+	"dark": $dark,
+	"dark-black": $dark-black,
+	"light-blue": $light-blue
+);
+
+// scss-docs-end theme-colors-map
+$theme-colors: (
+	"primary": $primary,
+	"secondary": $secondary,
+	"success": $success,
+	"info": $info,
+	"warning": $warning,
+	"danger": $danger,
+	"light": $light,
+	"dark": $dark,
+	"orange": $orange,
+	"purple": $purple,
+	"blue": $blue,
+	"teal": $teal,
+	"pink": $pink,
+	"tertiary": $tertiary,
+	"heading": $heading,
+	"text": $text,
+	"dark-black": $dark-black,
+	"white-light": $white-light,
+	"black": $black,
+	"dark-white": $dark-white,
+	"light-blue": $light-blue
+);
+// scss-docs-end theme-colors-map
+
+$container-max-widths: (
+	sm: 100%,
+	md: 100%,
+	lg: 100%,
+	xl: 1400px,
+	xxl: 1620px
+);
+
+$box-shadow: 0 0 0.313rem rgba($black, 0.15);
+$box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075);
+$box-shadow-lg: 0 1rem 3rem rgba($black, 0.175);
+$box-shadow-inset: inset 0 1px 2px rgba($black, 0.075);
+$box-shadow-1: 0 0 10px rgba($black, 0.05);
+$box-shadow-2: 1px 1px 5px rgba($black, 0.05);
+$box-shadow-3: 3px 3px 25px rgba($black, 0.15);
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root: null;
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-sm: $font-size-base * 0.875;
+$font-size-lg: $font-size-base * 1.25;
+
+$font-weight-thin: 100;
+$font-extra-light: 200;
+$font-light: 300;
+$font-ragular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-extra-bold: 800;
+$font-black: 900;
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bolder: bolder;
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+
+$spacer: 1rem;
+$spacers: (
+	0: 0,
+
+	1: $spacer * 0.625,
+	2: $spacer * 1.25,
+	3: $spacer * 1.875,
+	4: $spacer * 2.5,
+	5: $spacer * 3.125,
+	6: $spacer * 3.75,
+	7: $spacer * 4.375,
+	8: $spacer * 5,
+	9: $spacer * 5.625,
+	10: $spacer * 6.5,
+	110: $spacer * 6.875,
+	120: $spacer * 7.5,
+	130: $spacer * 8.125,
+	140: $spacer * 8.75,
+	150: $spacer * 9.375,
+	200: $spacer * 12.5,
+	300: $spacer * 18.75,
+	424: $spacer * 26.5,
+	25: $spacer * 1.5625,
+	35: $spacer * 2.1875,
+	45: $spacer * 2.8125,
+	15: $spacer * 0.9375,
+	24: $spacer * 1.5,
+	12: $spacer * 0.75
+);
+
+$utilities: (
+	"font-weight": (
+		property: font-weight,
+		class: fw,
+		values: (
+			thin: $font-weight-thin,
+			extra-light: $font-extra-light,
+			ragular: $font-ragular,
+			semibold: $font-weight-semibold,
+			bold: $font-weight-bold,
+			extra-bold: $font-extra-bold,
+			black: $font-black,
+			lighter: $font-weight-lighter,
+			light: $font-weight-light,
+			normal: $font-weight-normal,
+			medium: $font-weight-medium,
+			bolder: $font-weight-bolder
+		)
+	),
+	"line-height": (
+		property: line-height,
+		class: lh,
+		values: (
+			1: 1,
+			6: 0.8,
+			sm: $line-height-sm,
+			base: $line-height-base,
+			lg: $line-height-lg
+		)
+	),
+
+	"text-decoration": (
+		property: text-decoration,
+		values: none underline line-through
+	),
+	"text-transform": (
+		property: text-transform,
+		class: text,
+		values: lowercase uppercase capitalize
+	),
+	"white-space": (
+		property: white-space,
+		class: text,
+		values: (
+			wrap: normal,
+			nowrap: nowrap
+		)
+	),
+
+	"shadow": (
+		property: box-shadow,
+		class: shadow,
+		values: (
+			3: $box-shadow-3,
+			2: $box-shadow-2,
+			1: $box-shadow-1,
+			null: $box-shadow,
+			sm: $box-shadow-sm,
+			lg: $box-shadow-lg,
+			none: none
+		)
+	),
+	"rounded": (
+		property: border-radius,
+		class: rounded,
+		values: (
+			null: var(--#{$prefix}border-radius),
+			0: 0,
+			1: var(--#{$prefix}border-radius-sm),
+			2: var(--#{$prefix}border-radius),
+			3: var(--#{$prefix}border-radius-lg),
+			4: var(--#{$prefix}border-radius-xl),
+			5: var(--#{$prefix}border-radius-xxl),
+			circle: 50%,
+			pill: var(--#{$prefix}border-radius-pill)
+		)
+	),
+	"rounded-top": (
+		property: border-top-left-radius border-top-right-radius,
+		class: rounded-top,
+		values: (
+			null: var(--#{$prefix}border-radius),
+			0: 0,
+			1: var(--#{$prefix}border-radius-sm),
+			2: var(--#{$prefix}border-radius),
+			3: var(--#{$prefix}border-radius-lg),
+			4: var(--#{$prefix}border-radius-xl),
+			5: var(--#{$prefix}border-radius-xxl),
+			circle: 50%,
+			pill: var(--#{$prefix}border-radius-pill)
+		)
+	),
+	"rounded-end": (
+		property: border-top-right-radius border-bottom-right-radius,
+		class: rounded-end,
+		values: (
+			null: var(--#{$prefix}border-radius),
+			0: 0,
+			1: var(--#{$prefix}border-radius-sm),
+			2: var(--#{$prefix}border-radius),
+			3: var(--#{$prefix}border-radius-lg),
+			4: var(--#{$prefix}border-radius-xl),
+			5: var(--#{$prefix}border-radius-xxl),
+			circle: 50%,
+			pill: var(--#{$prefix}border-radius-pill)
+		)
+	),
+	"rounded-bottom": (
+		property: border-bottom-right-radius border-bottom-left-radius,
+		class: rounded-bottom,
+		values: (
+			null: var(--#{$prefix}border-radius),
+			0: 0,
+			1: var(--#{$prefix}border-radius-sm),
+			2: var(--#{$prefix}border-radius),
+			3: var(--#{$prefix}border-radius-lg),
+			4: var(--#{$prefix}border-radius-xl),
+			5: var(--#{$prefix}border-radius-xxl),
+			circle: 50%,
+			pill: var(--#{$prefix}border-radius-pill)
+		)
+	),
+	"rounded-start": (
+		property: border-bottom-left-radius border-top-left-radius,
+		class: rounded-start,
+		values: (
+			null: var(--#{$prefix}border-radius),
+			0: 0,
+			1: var(--#{$prefix}border-radius-sm),
+			2: var(--#{$prefix}border-radius),
+			3: var(--#{$prefix}border-radius-lg),
+			4: var(--#{$prefix}border-radius-xl),
+			5: var(--#{$prefix}border-radius-xxl),
+			circle: 50%,
+			pill: var(--#{$prefix}border-radius-pill)
+		)
+	),
+	"rounded-top-start": (
+		property: border-top-left-radius,
+		class: rounded-top-start,
+		values: (
+			null: var(--#{$prefix}border-radius),
+			0: 0,
+			1: var(--#{$prefix}border-radius-sm),
+			2: var(--#{$prefix}border-radius),
+			3: var(--#{$prefix}border-radius-lg),
+			4: var(--#{$prefix}border-radius-xl),
+			5: var(--#{$prefix}border-radius-xxl),
+			circle: 50%,
+			pill: var(--#{$prefix}border-radius-pill)
+		)
+	),
+	"rounded-top-end": (
+		property: border-top-right-radius,
+		class: rounded-top-end,
+		values: (
+			null: var(--#{$prefix}border-radius),
+			0: 0,
+			1: var(--#{$prefix}border-radius-sm),
+			2: var(--#{$prefix}border-radius),
+			3: var(--#{$prefix}border-radius-lg),
+			4: var(--#{$prefix}border-radius-xl),
+			5: var(--#{$prefix}border-radius-xxl),
+			circle: 50%,
+			pill: var(--#{$prefix}border-radius-pill)
+		)
+	),
+	"rounded-bottom-start": (
+		property: border-bottom-left-radius,
+		class: rounded-bottom-start,
+		values: (
+			null: var(--#{$prefix}border-radius),
+			0: 0,
+			1: var(--#{$prefix}border-radius-sm),
+			2: var(--#{$prefix}border-radius),
+			3: var(--#{$prefix}border-radius-lg),
+			4: var(--#{$prefix}border-radius-xl),
+			5: var(--#{$prefix}border-radius-xxl),
+			circle: 50%,
+			pill: var(--#{$prefix}border-radius-pill)
+		)
+	),
+	"rounded-bottom-end": (
+		property: border-bottom-right-radius,
+		class: rounded-bottom-end,
+		values: (
+			null: var(--#{$prefix}border-radius),
+			0: 0,
+			1: var(--#{$prefix}border-radius-sm),
+			2: var(--#{$prefix}border-radius),
+			3: var(--#{$prefix}border-radius-lg),
+			4: var(--#{$prefix}border-radius-xl),
+			5: var(--#{$prefix}border-radius-xxl),
+			circle: 50%,
+			pill: var(--#{$prefix}border-radius-pill)
+		)
+	)
+);
+
+$offcanvas-horizontal-width: 300px;
+$btn-padding-x: 1.25rem;
+$btn-padding-y: 0.9375rem;
+$btn-font-family: $font-family-sans-serif;
+$btn-font-size: 1.25rem;
+
+$btn-font-family: $input-btn-font-family !default;
+$btn-font-size: $input-btn-font-size !default;

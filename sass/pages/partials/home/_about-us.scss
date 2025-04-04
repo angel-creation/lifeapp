@@ -1,0 +1,19 @@
+.#{$prefix}about-us {
+	position: relative;
+	background-color: #f6fffe;
+	.#{$prefix}background-heading {
+		color: rgba($color: #000000, $alpha: 0.03);
+		position: absolute;
+		top: rem(20);
+		left: rem(80);
+	}
+	.#{$prefix}about-us-img-wrapper {
+		position: relative;
+		.h3 {
+			writing-mode: vertical-rl;
+			position: absolute;
+			top: rem(45);
+			left: rem(25);
+		}
+	}
+}

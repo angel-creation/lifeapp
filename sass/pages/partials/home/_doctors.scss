@@ -1,0 +1,10 @@
+.#{$prefix}our-doctor {
+	position: relative;
+
+	.#{$prefix}background-heading {
+		color: rgba($color: #000000, $alpha: 0.03);
+		position: absolute;
+		top: rem(20);
+		left: rem(450);
+	}
+}
